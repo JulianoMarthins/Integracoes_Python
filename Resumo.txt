@@ -1,0 +1,5 @@
+Olá, meu nome é Juliano
+Sou estudante de Python
+Estou formado em análise e desenvolvimento de sistemas
+Neste corrente ano desejo migrar para área de programação.
+Boa sorte a todos nós.

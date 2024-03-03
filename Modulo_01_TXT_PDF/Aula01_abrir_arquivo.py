@@ -43,7 +43,6 @@ arquivo = open('Alunos.txt', 'r')
         O método readlines() se torna mais interessante porque ele transforma o arquivo em uma lista em python onde cada linha do arquivo
     será um item dessa lista, sendo assim, pode ser utilizado todos os métodos que aprendemos nos capitulos em que trabalhamos com listas.
 """
-print()
 
 # O código abaixo imprime o conteúdo armazenado na variavel arquivo como um arquivo de texto
 #print(f'Abrindo o arquivo pelo método .read():\n\n{arquivo.read()}')
@@ -51,7 +50,9 @@ print()
 # O código abaixo imprime o conteúdo armazenado na variavel convertida pra listas
 print(f'\n\nAbrindo o arquivo pelo método .readlines():\n\n {arquivo.readlines()}')
 
-
+# Devemos sempre fechar o arquivo quando não formos mais utiliza-lo, mesmo que o algortimo já esteja finalizado como no
+# no caso desta aula.
+arquivo.close()
 
 
 
